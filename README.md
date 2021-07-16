@@ -22,6 +22,8 @@ Once the DOG banks are built, scan each DOG layer to find local extreme point. E
 ## Extraction of descriptors
 SIFT would build descriptor for each keypoint. To guaranterr rotation invariant, SIFT detects principal orientation of keypoint first.
 
+![orientation](./JPG/orientation.jpg)
+
 ----
 ## Reference:
 > **Distinctive Image Features from Scale-Invariant Keypoints 2004**  
