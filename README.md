@@ -3,8 +3,9 @@ SIFT, a popular image matching algorithm extracts a set of descriptors from an i
 The SIFT algorithm consists of two successive and independent operations: 
 (1) The detection of interesting points (i.e keypoints)
 (2) The extraction of a descriptors associated to each of keypoints.
-Since these descriptors are robust, they are usually used for matching pairs of images. Object recognition, video stabilization, and panorama are other ppular application examples.
-![Result_A1](./Images/SG2_result_A1.jpg)  
+Since these descriptors are robust, they are usually used for matching pairs of images. Object recognition, video stabilization, and panorama are other popular application examples.
+![Image_Pair](./JPG/Image_pairing.jpg)  
+![Panorama](./JPG/panorama.jpg)  
 
 ----
 ##
