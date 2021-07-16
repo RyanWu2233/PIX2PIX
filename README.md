@@ -8,7 +8,10 @@ Since these descriptors are robust, they are usually used for matching pairs of 
 ![Panorama](./JPG/panorama.jpg)  
 
 ----
-##
+## SIFT signal processing flow
+![SIFT flow](./JPG/SIFT_flow.jpg)  
+To improve SIFT accuracy, images are enlarged (doubled) and switch into gray-scale first. It implies that SIFT discard color information. 
+
 
 ----
 ## Reference:
