@@ -11,11 +11,11 @@ Since these descriptors are robust, they are usually used for matching pairs of 
 ## SIFT signal processing flow
 ![SIFT flow](./JPG/SIFT_flow.jpg)  
 To improve SIFT accuracy, images are enlarged (doubled) and switch into gray-scale first. It implies that SIFT discard color information. 
-Next, SIFT utilizes image pyramid to realize scale invariant. Image is shrinked as 0.5X, 0.25X, 0.125X. Meanwhile, each image is further filtered by Gaussian filter to generate 6 sub-layers. 
-
-
- 
+Next, images are shrinked as 0.5X, 0.25X, 0.125X to form Gaussian image pyramic. Meanwhile, each image is further filtered by Gaussian filter to generate 6 sub-layers.
+SIFT utilizes difference of consecutive Gaussian (DOG) to apply bandpass filter for different scale.  
 ![DOG_pyramid](./JPG/DOG_pyramid.jpg)
+![DOG_pyramid1](./JPG/DOG_pyramid1.jpg)
+
 
 ----
 ## Reference:
