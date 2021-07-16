@@ -1,7 +1,16 @@
-## SIFT (Scale Invariant Feature Transform) 
-![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)
-![TensorFlow 2.10](https://img.shields.io/badge/tensorflow-2.10-green.svg?style=plastic)
+## SIFT (Scale Invariant Feature Transform)  
+SIFT, a popular image matching algorithm extracts a set of descriptors from an image. The extracted descriptors are invariant to image translation, rotation and scaling. It has also proved to be robust to a wide family of image transformations, such as slight changes of viewpoint, noise, blur, contrast change, scene deformation, while remaining discriminative enough for matching purposes.
+The SIFT algorithm consists of two successive and independent operations: 
+(1) The detection of interesting points (i.e keypoints)
+(2) The extraction of a descriptors associated to each of keypoints.
+Since these descriptors are robust, they are usually used for matching pairs of images. Object recognition, video stabilization, and panaroma are other ppular application examples.
+
 
 ----
 ##
 
+----
+## Reference:
+> **Distinctive Image Features from Scale-Invariant Keypoints 2004**  
+> David G. Lowe  
+> [PDF] https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf 
